@@ -1,0 +1,85 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@tsconfig/node18-strictest': ^1.0.0
+  rome: ^10.0.0
+  typescript: ^4.8.4
+
+devDependencies:
+  '@tsconfig/node18-strictest': 1.0.0
+  rome: 10.0.0
+  typescript: 4.8.4
+
+packages:
+
+  /@rometools/cli-darwin-arm64/10.0.0:
+    resolution: {integrity: sha512-JT7JccEtKyFDHXy0MxhwHN4Zc94s/kW+0aTczb1ChAoCStfjj5jWzv/yQnm+HFw5Vf3ukAocLsDNRN6d9gQYbQ==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-darwin-x64/10.0.0:
+    resolution: {integrity: sha512-HORYhz8eM3L3XePPNBhU44zFpTVfhpuO4B7fjdfho7z9kwTW22M0fVvuPrxxPauxmin7gHM8lxCD2jHxabg34Q==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-linux-arm64/10.0.0:
+    resolution: {integrity: sha512-/L3jxo9RUwJ+uvDvAPCquAw10ccpZDuzADfZff5tHd6Fzv28cAToC3JrN/2miGpur0Fx/NIZIPbAsdI4NWGIRA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-linux-x64/10.0.0:
+    resolution: {integrity: sha512-KC6CDeSR4haRfxmfrvCn8+NzQ7X31pDjFgD+m+PAbSXOeMr/KHmU7eDsjC3d47ORYYkYXqhx9VxHe1w3IEShMg==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-win32-arm64/10.0.0:
+    resolution: {integrity: sha512-8XWjx7Z1dMp9q4Lvi+ax4+Y8vkbp7JHVdfrTSMQTyUA9ofaW6ah1h9iGPuKic057VTZGX66/KazC5qNTbrlckQ==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-win32-x64/10.0.0:
+    resolution: {integrity: sha512-mAf3f32oE919cZ86KVMR/X0VOs+C16jEUyt1ww2UPw/rKUmm0DNfuT6/m4FQW8GEHdCBC8z3zdRVCd05VK7UJg==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tsconfig/node18-strictest/1.0.0:
+    resolution: {integrity: sha512-bOuNKwO4Fzbt+Su5wqI9zNHwx5C25gLnutwVQA1sBZk0cW8UjVPVcwzIUhJIIJDUx7zDEbAwdCD2HfvIsV8dYg==}
+    dev: true
+
+  /rome/10.0.0:
+    resolution: {integrity: sha512-dQnIlzgHDt94N4JoFaqe9e2aDAZfdmyGOW4UaefMztDph41mt75Mg0aeJ/C7JgcIOLbp9D4LD+omyUB5YFUUPw==}
+    engines: {node: '>=14.*'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@rometools/cli-darwin-arm64': 10.0.0
+      '@rometools/cli-darwin-x64': 10.0.0
+      '@rometools/cli-linux-arm64': 10.0.0
+      '@rometools/cli-linux-x64': 10.0.0
+      '@rometools/cli-win32-arm64': 10.0.0
+      '@rometools/cli-win32-x64': 10.0.0
+    dev: true
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true

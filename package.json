@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "rome check ."
+  },
+  "devDependencies": {
+    "@tsconfig/node18-strictest": "^1.0.0",
+    "rome": "^10.0.0",
+    "typescript": "^4.8.4"
+  }
+}
